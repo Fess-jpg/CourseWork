@@ -9,10 +9,10 @@ public class Main {
         employeeBook.addEmployee(new Employee("Сергеев Сергей Сергеевич", 6, 23_000));
 
         employeeBook.addEmployee(new Employee("Иванов Иван Иванович", 1, 50000));
-        employeeBook.addEmployee( new Employee("Петров Пётр Петрович", 2, 60000));
-        employeeBook.addEmployee( new Employee("Сидоров Сидор Сидорович", 3, 45000));
-        employeeBook.addEmployee( new Employee("Алексеев Алексей Алексеевич", 4, 70000));
-        employeeBook.addEmployee( new Employee("Николаев Николай Николаевич", 5, 80000));
+        employeeBook.addEmployee(new Employee("Петров Пётр Петрович", 2, 60000));
+        employeeBook.addEmployee(new Employee("Сидоров Сидор Сидорович", 3, 45000));
+        employeeBook.addEmployee(new Employee("Алексеев Алексей Алексеевич", 4, 70000));
+        employeeBook.addEmployee(new Employee("Николаев Николай Николаевич", 5, 80000));
 
         employeeBook.printAllEmployees();
 
@@ -26,7 +26,8 @@ public class Main {
         if (searchedEmployee != null) {
             System.out.println(" Найден сотрудник " + searchedEmployee);
         } else {
-            System.out.println(" Сотрудник не найден ");}
+            System.out.println(" Сотрудник не найден ");
+        }
 
         System.out.println("Сумма затрат на ЗП в месяц: " + calculateTotalSalary());
         System.out.println("Сотрудник с минимальной ЗП: " + findEmployeeWithMinSalary());

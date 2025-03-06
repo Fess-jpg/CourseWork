@@ -56,6 +56,7 @@ public class Employee {
     public int hashCode() {
         return Integer.hashCode(id);
     }
+
     @Override
     public String toString() {
         return String.format("ID: %d, ФИО: %s, Отдел: %d, Зарплата: %.2f", id, fullName, department, salary);
