@@ -35,6 +35,7 @@ class EmployeeBook {
         for (Employee employee : employees) {
             if (employee != null) {
                 System.out.println(employee);
+
             }
         }
     }
